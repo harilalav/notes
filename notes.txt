@@ -1,0 +1,22 @@
+#######################################Linux Commands Basic#################################
+cd #change directory
+ls #list items
+cat #shows content of file
+head -n #shows n  number of lines from top
+tail -n #shows n number of lines from bottom
+man <command> #used to access man page of <command>
+
+
+###############################################Git########################################
+#used for version control
+#enables us to perform rollbacks in code
+#another examples of git like version controls:- Mercurial,Preforce
+
+##############################################Git Commands##################################
+git init  #initialize git(enables git and create a hidden folder named git to store the files added)
+git add <filename>  #add file to the folder created below
+git status  #shows the status of files in git(indicates modified or not)
+git commit -m #used to commit changes made to files/code.. -m preceeds the message in ""
+git log  #used to take the log of git
+git show  #used to show the hash of the commit
+git diff  #shows the difference made in code
