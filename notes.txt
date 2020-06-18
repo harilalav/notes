@@ -20,3 +20,5 @@ git commit -m #used to commit changes made to files/code.. -m preceeds the messa
 git log  #used to take the log of git
 git show  #used to show the hash of the commit
 git diff  #shows the difference made in code
+git remote add origin <repo link.git>   #add repo link 
+git push -u master #pushes the code to repo..can use -f(--Force)if needed
